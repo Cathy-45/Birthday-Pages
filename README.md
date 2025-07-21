@@ -53,9 +53,8 @@ To run this project locally or customize it, follow these steps:
 
 - **Open the Webpage**: Visit the deployed URL (or open `index.html` locally) to experience the surprise.
 - **Interact**:
-  - Click the "❮" and "❯" arrow buttons to navigate the slideshow.
   - Click "Celebrate!" to trigger red heart confetti.
-  - Click "Read My Love Letter" to view a personal message.
+  - Click "Open me" to view a personal message.
   - Click the Apple Music player to start "No Strings" (autoplay may require interaction due to browser policies).
 - **Note**: The shimmer effect enhances the card’s appearance, and the confetti animates on load and button click.
 

@@ -94,7 +94,7 @@ p {
 #loveLetterButton,
 #musicToggle {
   background-color: #1d5f6c;
-  color: #04232c;
+  color: #0a303b;
   border: none;
   padding: 10px 20px;
   font-size: 1em;
@@ -200,4 +200,10 @@ iframe {
   color: #063f4d;
   margin-top: 10px 0 0;
   text-align: left;
+}
+
+#countdown {
+  font-size: 1.1em;
+  color: #d81b60;
+  margin: 10px 0;
 }

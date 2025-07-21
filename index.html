@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="birthdayHeader">Happy Birthday, Richard!</h1>
+      <p id="birthdayMessage">
+        Richie, Richie, you make every day brighter. Here's to celebrating YOU
+        today! Wishing you all the love and happiness on your special day ❤️!
+      </p>
+      <iframe
+        width="300"
+        height="80"
+        src="https://www.youtube.com/embed/juwh4K2Dvrk?si=8o3dZcbA_FOcIHKY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div class="slideshow-container">
+        <div class="slide">
+          <img src="image1.jpg" alt="Memory 1" />
+        </div>
+        <div class="slide">
+          <img src="image2.jpg" alt="Memory 2" />
+        </div>
+        <div class="slide">
+          <img src="image3.jpg" alt="Memory 3" />
+        </div>
+        <div class="slide">
+          <img src="image4.jpg" alt="Memory 4" />
+        </div>
+
+        <!-- remove prev and next buttons -->
+      </div>
+      <p id="countdown">Days until your birthday: Loading...</p>
+      <button id="confettiButton" onclick="triggerConfetti()">
+        Celebrate! 🎉'🎉'
+      </button>
+      <button id="loveLetterButton" onclick="showLoveLetter()">
+        Open Me 😊
+      </button>
+      <div id="loveLetterModal" class="modal">
+        <div class="modal-content">
+          <div class="shimmer"></div>
+          <span class="close" onclick="closeLoveLetter()">×</span>
+          <h2>A Letter to My Prince Charming</h2>
+          <p id="loveLetter">
+            Richard, <br /><br />
+            Happy Birthday! Every little text moment with you feels like a gift,
+            even from miles away. Your selection of "No Strings" touched my
+            heart—it’s our song now, a reminder of your endless love. I look
+            forward to the day I will happily declare and rest knowing that
+            You’re my safe place, my laughter, my home. Here’s to celebrating
+            you today and always. Wish I was there with you. <br /><br />
+            Forever yours, <br />
+            Cathy 😘
+          </p>
+        </div>
+      </div>
+      <p class="fine-print">Designed by: @Cathy</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

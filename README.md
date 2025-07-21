@@ -1,7 +1,7 @@
 # Birthday-Page
 # Richard's Birthday Surprise Webpage
 
-Welcome to the source code for a special birthday webpage created for Richard! This project is a heartfelt gift, featuring a personalized message, a slideshow of memories, a love letter pop-up, red heart confetti, a shimmering card effect, and an embedded Apple Music player for "No Strings" by Ed Sheeran—his dedicated song. Built with HTML, CSS, and JavaScript, this webpage is designed to celebrate his birthday on July 27, 2025, with love and creativity.
+Welcome to the source code for a special birthday webpage created for Richard MacFarlane! This project is a heartfelt gift, featuring a personalized message, a slideshow of memories, a love letter pop-up, red heart confetti, a shimmering card effect, and an embedded Apple Music player for "No Strings" by Ed Sheeran—his dedicated song. Built with HTML, CSS, and JavaScript, this webpage is designed to celebrate his birthday on July 27, 2025, with love and creativity.
 
 ## Overview
 - **Purpose**: A romantic and interactive birthday surprise for Richard.

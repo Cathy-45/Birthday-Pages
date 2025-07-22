@@ -101,6 +101,7 @@ p {
   border-radius: 10px;
   cursor: pointer;
   margin: 10px;
+  box-shadow: 5px;
 }
 
 #confettiButton:hover,
@@ -124,11 +125,13 @@ p {
 
 .modal-content {
   background-color: #23616d;
+  font: 200 1.2em dancing script, cursive;
   padding: 20px;
-  border-radius: 20px;
-  max-width: 500px;
+  border-radius: 55px;
+  max-width: 800px;
+  max-height: 900px;
   text-align: center;
-  box-shadow: 10px 10px 10px rgba(165, 99, 99, 0.2);
+  box-shadow: 20px 20px 20px rgba(165, 99, 99, 0.2);
   position: relative;
 }
 
@@ -142,7 +145,7 @@ p {
 
 #loveLetter {
   font-style: italic;
-  color: #333;
+  color: #010f13;
   line-height: 1.6;
 }
 
@@ -204,6 +207,6 @@ iframe {
 
 #countdown {
   font-size: 1.1em;
-  color: #d81b60;
+  color: #03121f;
   margin: 10px 0;
 }

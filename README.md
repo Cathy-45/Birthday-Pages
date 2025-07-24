@@ -85,5 +85,5 @@ This project is for personal use only. Feel free to fork or adapt it, but please
 
 ## Acknowledgments
 
-- Inspired by Richard’s dedication of "No Strings" by Ed Sheeran.
+- Inspired by Richard’s selection/recommendation of "No Strings" by Ed Sheeran.
 - Thanks to the JSConfetti library for the heart animation: [https://www.jsconfetti.com](https://www.jsconfetti.com).
